@@ -29,19 +29,39 @@ git clone https://github.com/pawellach/salesops-foundry.git
 cd salesops-foundry
 ```
 
-Then in Claude Code, reference a skill directly:
+### Start with a single skill — no setup required
+
+You don't need to use all 72 skills. Each skill is standalone. Pick the one that solves your immediate problem:
 
 ```
 Use skills/01-find-buyers/icp-builder/SKILL.md to define our ICP for B2B SaaS in the mid-market segment.
 ```
 
-Or run a full workflow:
+```
+Use skills/04-discovery-and-deals/discovery-call-plan/SKILL.md. My notes: [paste what you know about the account].
+```
+
+The [Skills Catalogue](site/skills-catalog.md) has a one-line description of every skill, organised by group — browse it to find what you need.
+
+### Or run a full workflow
 
 ```
 Use workflows/account-to-meeting.md for Northlight Technologies.
 ```
 
 See [docs/INSTALLATION.md](docs/INSTALLATION.md) for detailed setup and [docs/OPERATING_GUIDE.md](docs/OPERATING_GUIDE.md) for usage patterns.
+
+### Runtime compatibility
+
+The toolkit is written for **Claude Code** (Anthropic). Skills are plain Markdown with YAML frontmatter — no proprietary binary format. They can be adapted to other agent runtimes:
+
+| Runtime | Status |
+|---|---|
+| Claude Code (Claude API) | ✅ Native |
+| Amazon Q Developer | 📋 Planned — see Roadmap (Release 1.5) |
+| Other SKILL.md-compatible runtimes | Works with minor adaptation |
+
+Salesforce-native skill variants (reading from SOQL, opportunity objects) are planned for Release 1.5.
 
 ---
 

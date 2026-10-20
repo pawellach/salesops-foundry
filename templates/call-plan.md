@@ -62,6 +62,17 @@ _By the end of this call, we will have:_
 
 ---
 
+## Qualification framework
+
+**Framework in use:** _(MEDDICC / SPICED / BANT / other — delete inapplicable)_
+
+| Dimension | Known | Unknown / to discover |
+|---|---|---|
+| _e.g. Metrics / Economic Buyer / Decision Criteria_ | | |
+| | | |
+
+---
+
 ## Risks and gaps to address
 
 | Risk | Mitigation |

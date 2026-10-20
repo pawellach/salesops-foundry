@@ -28,7 +28,7 @@ This workflow takes a single target account and drives it from initial selection
 ## Prerequisites
 
 - Account name and at least one public data point (website, LinkedIn, news) available
-- ICP criteria defined (use Skill: ICP Builder if not yet done)
+- ICP criteria defined (use [ICP Builder](../skills/01-find-buyers/icp-builder/SKILL.md) if not yet done)
 - Human is available to review and approve outreach before sending
 
 ---

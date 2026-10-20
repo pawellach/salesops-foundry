@@ -48,6 +48,21 @@ Items are labelled: ✅ Implemented | 🔄 In Progress | 📋 Planned | ⏳ Defe
 
 ---
 
+## Release 1.5 — Runtime Portability and Salesforce Skills
+
+**Goal:** Make the toolkit usable beyond Claude Code, and add Salesforce-native skills for teams already on the platform. These two tracks run in parallel with Release 1 polish.
+
+| Item | Status | Value | Complexity | Dependencies | Notes |
+|---|---|---|---|---|---|
+| Amazon Q adapter — skill format mapping | 📋 | High | Medium | R1 complete | Port SKILL.md convention to Amazon Q Builder format; generate equivalent skill definitions |
+| Amazon Q runtime guide | 📋 | High | Low | Adapter complete | How to invoke skills from Amazon Q; differences from Claude Code |
+| Amazon Q parity test | 📋 | Medium | Medium | Adapter + guide | Run golden test suite against Q; document any behaviour differences |
+| Salesforce Account/Opportunity skill pack | 📋 | High | High | R1 complete | Skills that read Salesforce data (SOQL queries, opportunity fields) as input; CRM-aware variants of account brief, pipeline hygiene, forecast challenge |
+| Salesforce admin onboarding guide | 📋 | Medium | Medium | SF skill pack | Permissions, Connected App setup, Named Credentials pattern |
+| Salesforce write-back (manual approval queue) | ⏳ | High | High | SF skill pack stable | Update fields via approval gate only; no autonomous DML |
+
+---
+
 ## Release 2 — Integrations
 
 **Goal:** Optional connectors to external systems. All read-only first; writes only after explicit configuration and approval.

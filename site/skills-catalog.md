@@ -51,7 +51,7 @@ title: Skills Catalogue
 | 22 | Lead Routing Recommendation | Suggest ownership using transparent, documented rules |
 | 23 | Warm-Path Mapping | Identify a potential introduction path from verified supplied context only |
 | 24 | Personalised Outreach Planner | Select an angle grounded in the account brief |
-| 25 | First-Touch Draft | Generate a relevant, low-hype message for human review |
+| 25 | First-Touch Draft | **Procedure skill:** generate a contextualised draft message — uses an outreach plan as input, not a blank template |
 | 26 | Follow-up Sequence Builder | Draft a bounded sequence with stop rules and opt-out respect |
 | 27 | Meeting Booking Preparation | Prepare scheduling options; never book without permission |
 | 28 | Pipeline Stage Recommendation | Suggest a stage based on evidence and defined criteria |
@@ -100,7 +100,7 @@ title: Skills Catalogue
 
 | # | Skill | Description |
 |---|---|---|
-| 53 | Initial Outreach Template | Configurable by role, context, and channel |
+| 53 | Initial Outreach Template | **Structural template skill:** provides a blank, configurable structure — use Skill 25 (First-Touch Draft) when you want AI to generate the content |
 | 54 | Meeting Request Template | Concise, relevant, permission-respecting |
 | 55 | Follow-up Sequence Template | Configurable cadence and stop conditions |
 | 56 | Call Notes Template | Structured and CRM-agnostic |
