@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "salesops-foundry/schemas/research-claim.schema.json",
+  "title": "ResearchClaim",
+  "description": "A single researched claim with provenance, confidence, and type classification.",
+  "type": "object",
+  "required": ["claimText", "claimType", "source", "accessDate", "confidence"],
+  "properties": {
+    "claimText": {
+      "type": "string",
+      "description": "The claim itself, stated as a single sentence."
+    },
+    "claimType": {
+      "type": "string",
+      "enum": ["fact", "inference", "assumption", "recommendation"],
+      "description": "Epistemological type: fact (sourced), inference (derived), assumption (untested), recommendation (advised action)."
+    },
+    "source": {
+      "type": "string",
+      "description": "URL or name of the source from which this claim is derived."
+    },
+    "sourceDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the source was published or last updated."
+    },
+    "accessDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this source was accessed for research."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "unverified"],
+      "description": "Confidence in this claim's accuracy."
+    },
+    "supportingEvidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Additional sources or claims that corroborate this claim."
+    },
+    "contradictingEvidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Sources or claims that contradict or qualify this claim."
+    },
+    "reviewer": {
+      "type": "string",
+      "description": "Agent or person who reviewed this claim for accuracy."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,35 @@
+name: Validate Content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate directory structure
+        run: python scripts/validate_structure.py
+
+      - name: Validate frontmatter
+        run: python scripts/validate_frontmatter.py
+
+      - name: Check internal links
+        run: python scripts/check_links.py
+
+      - name: Scan for secrets
+        run: |
+          if git grep -rn "api_key\|password\|secret\b\|token\b" -- "*.md" "*.yml" "*.json" | grep -v "CHANGELOG\|SECURITY\|CONTRIBUTING\|example\|fictional\|placeholder\|YOUR_\|<your"; then
+            echo "Potential secret pattern found — review the matches above"
+            exit 1
+          fi
+          echo "Secret scan passed"

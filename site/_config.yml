@@ -1,0 +1,42 @@
+title: SalesOps Foundry
+description: A modular, human-governed AI operating system for modern sales teams.
+author: Hakken
+baseurl: ""
+url: "https://pawellach.github.io/salesops-foundry"
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+navigation:
+  - title: Home
+    url: /
+  - title: Getting Started
+    url: /getting-started
+  - title: Skills Catalogue
+    url: /skills-catalog
+  - title: Agents
+    url: /agents
+  - title: Workflows
+    url: /workflows
+  - title: Safety
+    url: /safety
+  - title: Roadmap
+    url: /roadmap
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+  - scripts/
+  - schemas/
+  - evaluations/
+  - examples/
+  - docs/

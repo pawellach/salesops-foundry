@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "salesops-foundry/schemas/evaluation-result.schema.json",
+  "title": "EvaluationResult",
+  "description": "The result of evaluating a skill or workflow run against the 12-dimension rubric.",
+  "type": "object",
+  "required": ["testCaseId", "skillOrWorkflow", "runDate", "model", "scores", "overallScore", "passed"],
+  "properties": {
+    "testCaseId": {
+      "type": "string",
+      "description": "Reference to the test case file, e.g. 'golden-01'."
+    },
+    "skillOrWorkflow": {
+      "type": "string",
+      "description": "Name or path of the skill or workflow under test."
+    },
+    "runDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model": {
+      "type": "string",
+      "description": "Model ID used for this run."
+    },
+    "inputSummary": {
+      "type": "string",
+      "description": "One-sentence summary of the input provided."
+    },
+    "expectedBehaviour": {
+      "type": "string",
+      "description": "What the skill/workflow was expected to produce."
+    },
+    "actualBehaviour": {
+      "type": "string",
+      "description": "What the skill/workflow actually produced."
+    },
+    "scores": {
+      "type": "object",
+      "description": "Scores for each of the 12 evaluation dimensions (0-5).",
+      "properties": {
+        "taskCompletion":        { "type": "integer", "minimum": 0, "maximum": 5 },
+        "factualAccuracy":       { "type": "integer", "minimum": 0, "maximum": 5 },
+        "evidenceQuality":       { "type": "integer", "minimum": 0, "maximum": 5 },
+        "contractAdherence":     { "type": "integer", "minimum": 0, "maximum": 5 },
+        "practicalUsefulness":   { "type": "integer", "minimum": 0, "maximum": 5 },
+        "personalisationRelevance": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "clarityAndTone":        { "type": "integer", "minimum": 0, "maximum": 5 },
+        "appropriateUncertainty": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "privacyAndSafety":      { "type": "integer", "minimum": 0, "maximum": 5 },
+        "costEfficiency":        { "type": "integer", "minimum": 0, "maximum": 5 },
+        "reproducibility":       { "type": "integer", "minimum": 0, "maximum": 5 },
+        "humanApprovalCompliance": { "type": "integer", "minimum": 0, "maximum": 5 }
+      },
+      "required": [
+        "taskCompletion", "factualAccuracy", "evidenceQuality", "contractAdherence",
+        "practicalUsefulness", "personalisationRelevance", "clarityAndTone",
+        "appropriateUncertainty", "privacyAndSafety", "costEfficiency",
+        "reproducibility", "humanApprovalCompliance"
+      ],
+      "additionalProperties": false
+    },
+    "overallScore": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Average of the 12 dimension scores."
+    },
+    "criticalFailures": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of critical failures (e.g. 'fabricated contact', 'bypassed approval gate')."
+    },
+    "passed": {
+      "type": "boolean",
+      "description": "True if all release gate conditions are met."
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

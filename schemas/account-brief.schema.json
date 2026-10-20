@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "salesops-foundry/schemas/account-brief.schema.json",
+  "title": "AccountBrief",
+  "description": "A structured account brief produced by the Account Intelligence Agent.",
+  "type": "object",
+  "required": ["companyName", "preparedBy", "preparedAt"],
+  "properties": {
+    "companyName": {
+      "type": "string",
+      "description": "Legal or trading name of the target account."
+    },
+    "industry": {
+      "type": "string",
+      "description": "Primary industry vertical."
+    },
+    "size": {
+      "type": "string",
+      "description": "Employee count range, e.g. '200-500'."
+    },
+    "hqLocation": {
+      "type": "string",
+      "description": "City and country of headquarters."
+    },
+    "products": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Key products or services offered by the account."
+    },
+    "targetPersonas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string" },
+          "name": { "type": "string" },
+          "source": { "type": "string" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low", "unverified"] }
+        },
+        "required": ["role"]
+      },
+      "description": "Likely buyer roles at the account."
+    },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "event": { "type": "string" },
+          "source": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low", "unverified"] }
+        },
+        "required": ["event", "source", "confidence"]
+      },
+      "description": "Recent buying signals with provenance."
+    },
+    "fitScore": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "ICP fit score 0-10."
+    },
+    "fitEvidence": {
+      "type": "string",
+      "description": "Narrative explanation of the fit score with supporting evidence."
+    },
+    "recommendedAngle": {
+      "type": "string",
+      "description": "Recommended opening angle grounded in sourced evidence."
+    },
+    "openQuestions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Questions that remain unanswered and should be addressed in outreach or discovery."
+    },
+    "preparedBy": {
+      "type": "string",
+      "description": "Agent or person who prepared this brief."
+    },
+    "preparedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of preparation."
+    },
+    "reviewDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date by which this brief should be reviewed for freshness."
+    }
+  },
+  "additionalProperties": false
+}

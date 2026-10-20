@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account.json
+
+# Editor
+.idea/
+.vscode/settings.json
+*.sublime-workspace
+
+# Build artefacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Test outputs and scratch
+*.log
+*.tmp
+scratch/
+tmp/
+
+# Personal data (extra guard)
+*-real-contacts.*
+*-real-accounts.*

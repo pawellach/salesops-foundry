@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "salesops-foundry/schemas/signal.schema.json",
+  "title": "Signal",
+  "description": "A normalised buying signal with provenance and prioritisation metadata.",
+  "type": "object",
+  "required": ["signalId", "signalType", "accountName", "description", "source", "discoveredAt", "confidence", "urgency", "status"],
+  "properties": {
+    "signalId": {
+      "type": "string",
+      "description": "Unique identifier for this signal, e.g. 'SIG-2026-001'."
+    },
+    "signalType": {
+      "type": "string",
+      "enum": [
+        "job-change",
+        "hiring",
+        "funding",
+        "product-launch",
+        "technology-change",
+        "content-engagement",
+        "competitor-engagement",
+        "intent"
+      ],
+      "description": "Category of buying signal."
+    },
+    "accountName": {
+      "type": "string",
+      "description": "Name of the target account this signal relates to."
+    },
+    "contactName": {
+      "type": "string",
+      "description": "Optional: name of the individual involved, if known and sourced."
+    },
+    "description": {
+      "type": "string",
+      "description": "Plain-language description of the signal event."
+    },
+    "source": {
+      "type": "string",
+      "description": "URL or name of the source (e.g. 'LinkedIn Jobs', 'Company blog')."
+    },
+    "sourceDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the signal event occurred or was published."
+    },
+    "discoveredAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when this signal was discovered."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "unverified"],
+      "description": "Confidence level in the signal's accuracy and relevance."
+    },
+    "urgency": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Urgency score: 1 (monitor) to 5 (act immediately)."
+    },
+    "recommendedAction": {
+      "type": "string",
+      "description": "Suggested next action. All external actions require human approval."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "reviewed", "actioned", "dismissed"],
+      "description": "Current handling status of this signal."
+    }
+  },
+  "additionalProperties": false
+}
