@@ -1,9 +1,9 @@
-# Follow-up Sequence Plan — Alex Chen
+﻿# Follow-up Sequence Plan — Alex Chen
 
 > **ALL MESSAGES ARE DRAFTS — HUMAN APPROVAL REQUIRED BEFORE EACH IS SENT.**
 > **FICTIONAL EXAMPLE** — All names and companies are invented.
 
-**Prepared by:** Outreach Agent / Hakken  
+**Prepared by:** Outreach Agent / Tanasku 探索  
 **Date:** 2026-10-20
 
 ---

@@ -1,8 +1,8 @@
-# Delivery Plan — SalesOps Foundry
+﻿# Delivery Plan — SalesOps Foundry
 
 **Version:** 1.0  
 **Date:** 2026-10-20  
-**Executor:** Hakken
+**Executor:** Tanasku 探索
 
 ---
 

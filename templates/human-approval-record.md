@@ -1,4 +1,4 @@
-# Human Approval Record Template
+﻿# Human Approval Record Template
 
 > Every Amber or Red tier action must have a completed approval record before execution.
 
@@ -12,7 +12,7 @@
 | **Action proposed** | _e.g. Send follow-up email to Alex Chen at Meridian Logistics_ |
 | **Action type** | _Amber — prepare and present / Red — explicit approval required_ |
 | **Risk tier** | _Amber / Red_ |
-| **Prepared by (agent)** | _e.g. Outreach Agent / Hakken_ |
+| **Prepared by (agent)** | _e.g. Outreach Agent / Tanasku 探索_ |
 | **Prepared at** | _YYYY-MM-DD HH:MM_ |
 
 ---

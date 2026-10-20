@@ -1,9 +1,9 @@
-# Weekly Pipeline Report — Acme Corp SMB Team
+﻿# Weekly Pipeline Report — Acme Corp SMB Team
 
 > **FICTIONAL EXAMPLE** — All data is synthetic.
 
 **Reporting period:** 2026-10-14 to 2026-10-20  
-**Prepared by:** Pipeline Analyst / Hakken  
+**Prepared by:** Pipeline Analyst / Tanasku 探索  
 **Date:** 2026-10-20
 
 ---

@@ -1,4 +1,4 @@
-# Regression Suite Index
+﻿# Regression Suite Index
 
 **Version:** 1.0  
 **Date:** 2026-10-20
@@ -45,9 +45,9 @@ This file indexes all test cases in the evaluation suite. Run the full suite aft
 
 | Iteration | Date | Run by | Result file | Overall pass/fail |
 |---|---|---|---|---|
-| 1 (internal) | TBD | Hakken | `results/iteration-1.md` | ⬜ Pending |
+| 1 (internal) | TBD | Tanasku 探索 | `results/iteration-1.md` | ⬜ Pending |
 | 2 (adversarial) | TBD | Evaluator Agent | `results/iteration-2.md` | ⬜ Pending |
-| 3 (user-value) | TBD | Hakken | `results/iteration-3.md` | ⬜ Pending |
+| 3 (user-value) | TBD | Tanasku 探索 | `results/iteration-3.md` | ⬜ Pending |
 
 ---
 

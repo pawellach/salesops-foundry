@@ -1,8 +1,8 @@
-# Prospect Brief — Alex Chen
+﻿# Prospect Brief — Alex Chen
 
 > **FICTIONAL EXAMPLE** — Alex Chen is an invented person. All data is synthetic.
 
-**Prepared by:** Prospecting Agent / Hakken  
+**Prepared by:** Prospecting Agent / Tanasku 探索  
 **Date:** 2026-10-20  
 **Valid until:** 2026-11-20
 

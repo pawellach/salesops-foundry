@@ -1,8 +1,8 @@
-# Account Brief — Northlight Technologies
+﻿# Account Brief — Northlight Technologies
 
 > **FICTIONAL EXAMPLE** — Northlight Technologies is an invented company. All data is synthetic.
 
-**Prepared by:** Account Intelligence Agent / Hakken  
+**Prepared by:** Account Intelligence Agent / Tanasku 探索  
 **Date:** 2026-10-20  
 **Review date:** 2026-11-20
 

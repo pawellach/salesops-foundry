@@ -1,4 +1,4 @@
-# First-Touch Outreach Draft — Northlight Technologies
+﻿# First-Touch Outreach Draft — Northlight Technologies
 
 > **DRAFT — HUMAN APPROVAL REQUIRED BEFORE SENDING.**
 > This message has NOT been sent. A human must review and approve before any communication is initiated.
@@ -14,7 +14,7 @@
 | To | Jordan Rivera, VP Operations, Northlight Technologies (fictional) |
 | From | [AE name — fill before sending] |
 | Channel | Email (or LinkedIn InMail — human decides) |
-| Drafted by | Outreach Agent / Hakken |
+| Drafted by | Outreach Agent / Tanasku 探索 |
 | Drafted at | 2026-10-20 |
 | Based on | `02-account-brief.md`, `03-signal-report.md` |
 | Approved by | _(leave blank — fill when approved)_ |

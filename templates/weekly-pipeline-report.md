@@ -1,4 +1,4 @@
-# Weekly Pipeline Report Template
+﻿# Weekly Pipeline Report Template
 
 > Prepared by Pipeline Analyst agent. Review and approve before sharing with management.
 
@@ -9,7 +9,7 @@
 | Field | Value |
 |---|---|
 | **Reporting period** | _YYYY-MM-DD to YYYY-MM-DD_ |
-| **Prepared by** | _Pipeline Analyst / Hakken_ |
+| **Prepared by** | _Pipeline Analyst / Tanasku 探索_ |
 | **Prepared at** | _YYYY-MM-DD HH:MM_ |
 | **Reviewer** | |
 | **Approved at** | _(leave blank)_ |

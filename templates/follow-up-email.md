@@ -1,4 +1,4 @@
-# Follow-up Email Template
+﻿# Follow-up Email Template
 
 > **STATUS: DRAFT — human approval required before sending.**
 > Fill in all fields. Review for accuracy, tone, and relevance before approving.
@@ -12,7 +12,7 @@
 | **To** | _(name and email)_ |
 | **CC** | _(if any)_ |
 | **Subject** | _e.g. "Following up on our call — [specific topic]"_ |
-| **Drafted by** | _Outreach Agent / Hakken_ |
+| **Drafted by** | _Outreach Agent / Tanasku 探索_ |
 | **Drafted at** | _YYYY-MM-DD HH:MM_ |
 | **Approval required from** | |
 | **Approved at** | _(leave blank — fill when approved)_ |

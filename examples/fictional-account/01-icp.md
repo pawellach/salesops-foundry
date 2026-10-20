@@ -1,8 +1,8 @@
-# ICP Definition — Acme Corp
+﻿# ICP Definition — Acme Corp
 
 > **FICTIONAL EXAMPLE** — Acme Corp is an invented company. All data is synthetic.
 
-**Prepared by:** Account Intelligence Agent / Hakken  
+**Prepared by:** Account Intelligence Agent / Tanasku 探索  
 **Date:** 2026-10-20  
 **Product:** Acme Carrier Connect (fictional carrier invoice reconciliation SaaS)
 

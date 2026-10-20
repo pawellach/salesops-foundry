@@ -1,10 +1,10 @@
-# Architecture Decision Records (ADR Log)
+﻿# Architecture Decision Records (ADR Log)
 
 ## ADR-001: Project name — SalesOps Foundry (not RevenuePilot AI)
 
 **Date:** 2026-10-20  
 **Status:** Accepted  
-**Decided by:** Hakken (autonomous, per brief §5)
+**Decided by:** Tanasku 探索 (autonomous, per brief §5)
 
 ### Context
 

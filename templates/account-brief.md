@@ -1,4 +1,4 @@
-# Account Brief Template
+﻿# Account Brief Template
 
 > Complete one per target account before engaging. All claims must reference a source.
 
@@ -70,6 +70,6 @@ _One paragraph. What is the most credible opening based on the evidence above? W
 
 | Field | Value |
 |---|---|
-| Agent/person | _e.g. Account Intelligence Agent / Hakken_ |
+| Agent/person | _e.g. Account Intelligence Agent / Tanasku 探索_ |
 | Date prepared | _YYYY-MM-DD_ |
 | Review date | _YYYY-MM-DD_ |

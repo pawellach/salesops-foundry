@@ -1,9 +1,9 @@
-# Project Charter — SalesOps Foundry
+﻿# Project Charter — SalesOps Foundry
 
 **Version:** 1.0  
 **Date:** 2026-10-20  
 **Owner:** Project sponsor (Paweł Łach)  
-**Execution agent:** Hakken  
+**Execution agent:** Tanasku 探索  
 **Status:** Approved for execution
 
 ---
@@ -97,5 +97,5 @@ The project is complete when all 18 acceptance criteria in `docs/ACCEPTANCE_CRIT
 | Person | Role |
 |---|---|
 | Paweł Łach | Owner, final approver |
-| Hakken | Execution agent, author |
+| Tanasku 探索 | Execution agent, author |
 | Maciek Oksiuta | Intended first external reader (email draft, pending approval) |

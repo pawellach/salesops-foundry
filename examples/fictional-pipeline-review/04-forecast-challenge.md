@@ -1,8 +1,8 @@
-# Forecast Challenge — Acme Corp SMB Team
+﻿# Forecast Challenge — Acme Corp SMB Team
 
 > **FICTIONAL EXAMPLE** — All data is synthetic.
 
-**Prepared by:** Pipeline Analyst / Hakken  
+**Prepared by:** Pipeline Analyst / Tanasku 探索  
 **Input:** `01-pipeline-data.md`, `03-weekly-report.md`  
 **Date:** 2026-10-20
 

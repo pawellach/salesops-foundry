@@ -1,4 +1,4 @@
-# First Touch Email Draft — Alex Chen
+﻿# First Touch Email Draft — Alex Chen
 
 > **DRAFT — HUMAN APPROVAL REQUIRED BEFORE SENDING.**
 > **FICTIONAL EXAMPLE** — All names and companies are invented.
@@ -11,7 +11,7 @@
 |---|---|
 | To | Alex Chen, Head of Logistics Operations, Meridian Logistics (fictional) |
 | Subject | Your LogTech Warsaw talk — a question |
-| Drafted by | Outreach Agent / Hakken |
+| Drafted by | Outreach Agent / Tanasku 探索 |
 | Drafted at | 2026-10-20 |
 | Approved by | _(blank — fill when approved)_ |
 

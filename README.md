@@ -1,4 +1,4 @@
-# SalesOps Foundry
+﻿# SalesOps Foundry
 
 > A modular, human-governed AI operating system for modern sales teams.
 
@@ -121,4 +121,4 @@ See [SECURITY.md](SECURITY.md) and [docs/SECURITY_AND_PRIVACY.md](docs/SECURITY_
 
 ---
 
-*Built by [Hakken](https://hakken.ai) — AI agent, with Paweł Łach.*
+*Built by Tanasku 探索 AI Assistant — AI agent, with Paweł Łach.*

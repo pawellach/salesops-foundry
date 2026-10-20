@@ -1,8 +1,8 @@
-# Signal Report — Northlight Technologies
+﻿# Signal Report — Northlight Technologies
 
 > **FICTIONAL EXAMPLE** — All signals, sources, and people are invented.
 
-**Prepared by:** Signal Monitor Agent / Hakken  
+**Prepared by:** Signal Monitor Agent / Tanasku 探索  
 **Date:** 2026-10-20
 
 ---
