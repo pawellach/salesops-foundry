@@ -9,6 +9,12 @@ Versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+---
+
+## [0.1.0] — 2026-10-31
+
+First public release.
+
 ### Added
 - Initial project structure, 7 planning docs, validation scripts, CI workflows (Phase 0–2)
 - 72-skill catalogue across 7 groups — 83 files with complete frontmatter (Phase 3)
@@ -29,9 +35,3 @@ Versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - M-02 (adversarial): human-approval-gates — added social media posting row (Red tier) (Phase 5)
 - L-04: Account Brief Builder — moved inference labelling instruction to Steps 4–5 (Phase 5)
 - M-01 (usability): discovery-to-demo workflow — explicit prerequisite link to Discovery Call playbook (Phase 6)
-
----
-
-## [0.1.0] — MVP Release — TBD
-
-First public-ready release pending GitHub publication and owner approval. See README for what is implemented vs. planned.

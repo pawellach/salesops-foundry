@@ -4,7 +4,7 @@
 
 SalesOps Foundry is an open toolkit that helps small sales teams perform the work of a much larger, well-coordinated team — by directing AI agents safely across the full sales lifecycle, from ICP definition and account research through outreach, discovery, deal progression, forecasting, and continuous improvement.
 
-**Status:** MVP in development. See the [Roadmap](docs/ROADMAP.md) for what is implemented vs. planned.
+**Status:** v0.1 — public release. 72 skills, 11 agents, 8 workflows, 9 playbooks. See the [Roadmap](docs/ROADMAP.md) for what's next (CRM integrations, Amazon Q compatibility, Salesforce-native variants).
 
 ---
 
