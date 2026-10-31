@@ -11,6 +11,15 @@ Versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.1.5] — 2026-10-31
+
+### Added
+- `scripts/build_q.py`: converts all 72 SKILL.md files to Amazon Q Desktop compatible format with auto-generated `trigger_phrases`, `tools`, and `depends_on` frontmatter fields; output to `dist/q-skills/`
+- `docs/AMAZON_Q_GUIDE.md`: installation and usage guide for Amazon Q Desktop integration
+- `skills/00-integrations/salesforce-write-back/SKILL.md`: helper skill to push structured skill output to Salesforce via sf CLI, with mandatory confirmation step before any DML
+
+---
+
 ## [0.1.0] — 2026-10-31
 
 First public release.
